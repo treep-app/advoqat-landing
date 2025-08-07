@@ -82,10 +82,10 @@ export default function Home() {
                 </>
               ) : (
                 <>
-                  <Link href="https://app.advoqat.com/auth/signin" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 border border-gray-300 bg-white text-gray-700 shadow-sm hover:bg-gray-50 h-8 rounded-md gap-1.5 px-3">
+                  <Link href="https://app.advoqat.com" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 border border-gray-300 bg-white text-gray-700 shadow-sm hover:bg-gray-50 h-8 rounded-md gap-1.5 px-3">
                     Sign In
                   </Link>
-                  <Link href="https://app.advoqat.com/auth/signup" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 bg-blue-600 text-white shadow-sm hover:bg-blue-700 h-8 rounded-md gap-1.5 px-3">
+                  <Link href="https://app.advoqat.com" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 bg-blue-600 text-white shadow-sm hover:bg-blue-700 h-8 rounded-md gap-1.5 px-3">
                     Get Started
                   </Link>
                 </>
