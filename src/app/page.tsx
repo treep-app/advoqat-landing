@@ -103,11 +103,11 @@ export default function Home() {
               <Zap className="w-4 h-4 mr-2" />
               AI-Powered Legal Assistant
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Your Legal Rights,
               <span className="text-blue-600"> Simplified</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto font-medium">
+            <p className="text-xl md:text-2xl text-gray-700 mb-6 max-w-2xl mx-auto font-medium">
               Get instant legal guidance, generate professional documents, and connect with affordable legal professionals. 
               No more expensive lawyers or complex legal jargon.
             </p>
@@ -171,7 +171,7 @@ export default function Home() {
       <section id="features" className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-3xl font-bold text-gray-900 mb-3">
               Everything You Need for Legal Protection
             </h2>
             <p className="text-xl md:text-2xl text-gray-700 max-w-2xl mx-auto font-medium">
