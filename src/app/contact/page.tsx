@@ -14,7 +14,7 @@ export default function ContactPage() {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
-  const [user, setUser] = useState<any>(null) // eslint-disable-line @typescript-eslint/no-explicit-any
+  const [user] = useState<any>(null) // eslint-disable-line @typescript-eslint/no-explicit-any
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
@@ -61,12 +61,13 @@ export default function ContactPage() {
       }
     } catch (error) {
       console.error('Error submitting contact form:', error)
+      const errorMessage = error instanceof Error ? error.message : 'An unknown error occurred'
       console.error('Error details:', {
-        name: error.name,
-        message: error.message,
-        stack: error.stack
+        name: error instanceof Error ? error.name : 'Unknown',
+        message: errorMessage,
+        stack: error instanceof Error ? error.stack : undefined
       })
-      alert(`Failed to submit your message: ${error.message}. Please try again.`)
+      alert(`Failed to submit your message: ${errorMessage}. Please try again.`)
     } finally {
       setIsSubmitting(false)
     }
@@ -83,9 +84,9 @@ export default function ContactPage() {
               <span className="text-xl font-bold text-gray-900">Advoqat</span>
             </Link>
             <div className="hidden md:flex items-center space-x-8">
-              <a href="/#features" className="text-gray-600 hover:text-blue-600 transition-colors">Features</a>
-              <a href="/#how-it-works" className="text-gray-600 hover:text-blue-600 transition-colors">How it Works</a>
-              <a href="/contact" className="text-blue-600 font-medium">Contact</a>
+              <Link href="/#features" className="text-gray-600 hover:text-blue-600 transition-colors">Features</Link>
+              <Link href="/#how-it-works" className="text-gray-600 hover:text-blue-600 transition-colors">How it Works</Link>
+              <Link href="/contact" className="text-blue-600 font-medium">Contact</Link>
             </div>
             <div className="flex items-center space-x-4">
               {user ? (
@@ -129,7 +130,7 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <p className="text-xl text-blue-100">
-            Get in touch with our team. We're here to help with your legal needs.
+            Get in touch with our team. We&apos;re here to help with your legal needs.
           </p>
         </div>
       </section>

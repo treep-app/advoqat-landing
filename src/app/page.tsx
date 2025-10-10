@@ -17,7 +17,7 @@ import {
 
 export default function Home() {
   const router = useRouter()
-  const [user, setUser] = useState<any>(null) // eslint-disable-line @typescript-eslint/no-explicit-any
+  const [user] = useState<any>(null) // eslint-disable-line @typescript-eslint/no-explicit-any
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
