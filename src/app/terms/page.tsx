@@ -28,13 +28,13 @@ export default function TermsOfServicePage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-blue-600">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Terms of Service
+            ADVOQAT Terms of Service
           </h1>
           <p className="text-xl text-blue-100">
-            Please read these terms carefully before using our services.
+            Terms & Conditions for using the Platform.
           </p>
           <p className="text-sm text-blue-200 mt-2">
-            Last updated: January 10, 2025
+            Effective Date: 23 March 2026
           </p>
         </div>
       </section>
@@ -44,154 +44,133 @@ export default function TermsOfServicePage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-lg shadow-sm p-8">
             <div className="prose prose-lg max-w-none">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Agreement to Terms</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">1. Definitions</h2>
               <p className="text-gray-600 mb-6">
-                By accessing and using Advoqat's legal services platform, you accept and agree to be bound 
-                by the terms and provision of this agreement. If you do not agree to abide by the above, 
-                please do not use this service.
+                Platform means the Advoqat legal website, applications, and services. User means any
+                person or entity using the Platform. Legal Professional means an independent solicitor,
+                barrister, or authorised advisor listed on the Platform.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Description of Service</h2>
-              <p className="text-gray-600 mb-4">
-                Advoqat provides an online platform that connects users with legal professionals and offers 
-                AI-powered legal assistance tools, including:
-              </p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">2. Acceptance of Terms</h2>
               <ul className="list-disc list-inside text-gray-600 mb-6 space-y-2">
-                <li>AI-powered legal document generation</li>
-                <li>Legal consultation services</li>
-                <li>Legal question and answer assistance</li>
-                <li>Document review and analysis</li>
-                <li>Legal research tools</li>
+                <li>By using the Platform, you accept these Terms and agree to be legally bound.</li>
+                <li>You must be at least 18 years old.</li>
+                <li>If you do not agree, you must not use the Platform.</li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">User Accounts</h2>
-              <p className="text-gray-600 mb-4">
-                To access certain features of our service, you must create an account. You agree to:
-              </p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">3. Nature of the Platform</h2>
               <ul className="list-disc list-inside text-gray-600 mb-6 space-y-2">
-                <li>Provide accurate and complete information</li>
-                <li>Maintain the security of your account credentials</li>
-                <li>Notify us immediately of any unauthorized use</li>
-                <li>Accept responsibility for all activities under your account</li>
+                <li>Advoqat is a technology service provider.</li>
+                <li>We provide AI legal information/document tools and marketplace connections.</li>
+                <li>We do not provide legal advice or regulated legal services.</li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Acceptable Use</h2>
-              <p className="text-gray-600 mb-4">
-                You agree to use our service only for lawful purposes and in accordance with these terms. 
-                You may not:
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">4. No Legal Advice and Non-Reliance</h2>
+              <p className="text-gray-600 mb-6">
+                All content is for general informational purposes only. You must obtain independent
+                legal advice and must not rely on the Platform as a substitute for professional advice.
               </p>
+
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">5. AI Disclaimer</h2>
+              <p className="text-gray-600 mb-6">
+                AI outputs may be inaccurate, incomplete, or outdated. You must independently verify
+                all outputs and seek professional advice before use. To the fullest extent permitted by
+                law, we disclaim liability arising from AI-generated content.
+              </p>
+
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">6. User Obligations</h2>
               <ul className="list-disc list-inside text-gray-600 mb-6 space-y-2">
-                <li>Use the service for any illegal or unauthorized purpose</li>
-                <li>Violate any laws in your jurisdiction</li>
-                <li>Transmit any harmful or malicious code</li>
-                <li>Attempt to gain unauthorized access to our systems</li>
-                <li>Interfere with the proper functioning of the service</li>
-                <li>Use the service to harass or harm others</li>
+                <li>Provide accurate and complete information.</li>
+                <li>Use the Platform lawfully.</li>
+                <li>Do not upload false, misleading, or harmful data.</li>
+                <li>Do not misuse AI outputs.</li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Legal Services Disclaimer</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">7. Lawyer Marketplace Terms</h2>
               <p className="text-gray-600 mb-6">
-                <strong>Important:</strong> Advoqat is a technology platform that facilitates connections 
-                between users and legal professionals. While we provide AI-powered tools and connect you 
-                with licensed attorneys, we are not a law firm. The AI assistant provides general 
-                information only and should not be considered legal advice. Always consult with a 
-                qualified attorney for specific legal matters.
+                Legal Professionals are independent third parties. Any legal engagement is a direct
+                contract between User and Legal Professional. The Platform is not liable for legal
+                advice quality, professional negligence, or case outcomes.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Attorney-Client Relationship</h2>
-              <p className="text-gray-600 mb-6">
-                An attorney-client relationship is formed only when you engage with a specific attorney 
-                through our platform and both parties agree to the representation. The AI assistant and 
-                general platform features do not create an attorney-client relationship.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Payment Terms</h2>
-              <p className="text-gray-600 mb-4">
-                Payment terms vary depending on the service:
-              </p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">8. Payments and Fees</h2>
               <ul className="list-disc list-inside text-gray-600 mb-6 space-y-2">
-                <li>Subscription fees are billed in advance</li>
-                <li>Consultation fees are charged per session</li>
-                <li>Document generation fees are charged per document</li>
-                <li>All fees are non-refundable unless otherwise specified</li>
-                <li>We reserve the right to change pricing with notice</li>
+                <li>The Platform may facilitate payments and act as a limited payment agent.</li>
+                <li>Unless expressly stated, we do not operate a regulated client account.</li>
+                <li>Payments are processed via third-party providers.</li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Intellectual Property</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">9. Refunds</h2>
               <p className="text-gray-600 mb-6">
-                The service and its original content, features, and functionality are owned by Advoqat and 
-                are protected by international copyright, trademark, patent, trade secret, and other 
-                intellectual property laws. You may not modify, distribute, or create derivative works 
-                based on our service.
+                Refunds are governed by our Refund Policy. For digital services, cancellation rights
+                may be limited when services begin immediately.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">User Content</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">10. Limitation of Liability</h2>
               <p className="text-gray-600 mb-6">
-                You retain ownership of any content you submit to our platform. By submitting content, 
-                you grant us a license to use, modify, and display such content as necessary to provide 
-                our services. You are responsible for ensuring your content does not violate any laws or 
-                third-party rights.
+                To the fullest extent permitted by law, we exclude liability for indirect or
+                consequential loss and cap total liability to the greater of £100 or the amount paid by
+                you in the previous 30 days, except where liability cannot be excluded by law.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Privacy and Confidentiality</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">11. Indemnity</h2>
               <p className="text-gray-600 mb-6">
-                We are committed to protecting your privacy and maintaining the confidentiality of your 
-                information. Please review our Privacy Policy for details on how we collect, use, and 
-                protect your information. Communications with licensed attorneys are protected by 
-                attorney-client privilege.
+                You agree to indemnify us against claims arising from misuse, reliance on AI content,
+                disputes with Legal Professionals, or breach of these Terms.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Limitation of Liability</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">12. Intellectual Property</h2>
               <p className="text-gray-600 mb-6">
-                To the maximum extent permitted by law, Advoqat shall not be liable for any indirect, 
-                incidental, special, consequential, or punitive damages, including without limitation, 
-                loss of profits, data, use, goodwill, or other intangible losses, resulting from your 
-                use of the service.
+                Platform content is owned by us or licensed. You are granted a limited non-exclusive
+                licence and may not copy, distribute, resell, or exploit content commercially without
+                consent.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Disclaimers</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">13. Data Protection</h2>
               <p className="text-gray-600 mb-6">
-                The service is provided on an "AS IS" and "AS AVAILABLE" basis. We disclaim all warranties, 
-                express or implied, including but not limited to warranties of merchantability, fitness 
-                for a particular purpose, and non-infringement. We do not warrant that the service will 
-                be uninterrupted or error-free.
+                Personal data is processed in accordance with applicable data protection law and our
+                Privacy Policy.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Termination</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">14. Availability</h2>
               <p className="text-gray-600 mb-6">
-                We may terminate or suspend your account and access to the service immediately, without 
-                prior notice, for any reason, including if you breach these terms. Upon termination, 
-                your right to use the service will cease immediately.
+                We do not guarantee uninterrupted or error-free service and may suspend/modify services
+                for maintenance or operational reasons.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Governing Law</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">15. Account Suspension</h2>
               <p className="text-gray-600 mb-6">
-                These terms shall be governed by and construed in accordance with the laws of the State 
-                of New York, without regard to its conflict of law provisions. Any disputes arising from 
-                these terms shall be resolved in the courts of New York.
+                We may suspend or terminate access where terms are breached, misuse/fraud is suspected,
+                or legal risk is identified.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Changes to Terms</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">16. Emergency Disclaimer</h2>
               <p className="text-gray-600 mb-6">
-                We reserve the right to modify these terms at any time. We will notify users of any 
-                material changes by posting the new terms on this page and updating the "Last updated" 
-                date. Your continued use of the service after such changes constitutes acceptance of the 
-                new terms.
+                The Platform is not suitable for urgent legal matters. Seek immediate assistance from a
+                qualified professional where necessary.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h2>
-              <p className="text-gray-600 mb-4">
-                If you have any questions about these Terms of Service, please contact us:
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">17. Complaints</h2>
+              <p className="text-gray-600 mb-6">
+                Complaints can be submitted to info@advoqat.com. We aim to respond within 5 working
+                days.
               </p>
+
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">18. Governing Law</h2>
+              <p className="text-gray-600 mb-6">
+                These Terms are governed by the laws of England and Wales. Courts of England and Wales
+                have exclusive jurisdiction.
+              </p>
+
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">19. Variation</h2>
+              <p className="text-gray-600 mb-6">
+                We may update these Terms at any time. Continued use constitutes acceptance.
+              </p>
+
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="text-gray-600 mb-2">
-                  <strong>Email:</strong> legal@advoqat.com
-                </p>
-                <p className="text-gray-600 mb-2">
-                  <strong>Phone:</strong> +1 (555) 123-4567
-                </p>
                 <p className="text-gray-600">
-                  <strong>Address:</strong> 123 Legal Street, Suite 100, New York, NY 10001
+                  <strong>Email:</strong> info@advoqat.com
                 </p>
               </div>
             </div>
