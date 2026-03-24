@@ -57,7 +57,7 @@ export default function Home() {
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#features" className="text-gray-600 hover:text-blue-600 transition-colors">Features</a>
-              <a href="#how-it-works" className="text-gray-600 hover:text-blue-600 transition-colors">How it Works</a>
+              <a href="#professional-legal-documents" className="text-gray-600 hover:text-blue-600 transition-colors">How it Works</a>
               <Link href="/contact" className="text-gray-600 hover:text-blue-600 transition-colors">Contact</Link>
             </div>
             <div className="flex items-center space-x-4">
@@ -103,11 +103,11 @@ export default function Home() {
               <Zap className="w-4 h-4 mr-2" />
               AI-Powered Legal Assistant
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-5 leading-tight">
               Your Legal Rights,
               <span className="text-blue-600"> Simplified</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-700 mb-6 max-w-2xl mx-auto font-medium">
+            <p className="text-base md:text-lg text-gray-700 mb-6 max-w-2xl mx-auto font-medium leading-relaxed">
               Get instant legal guidance, generate professional documents, and connect with affordable legal professionals. 
               No more expensive lawyers or complex legal jargon.
             </p>
@@ -133,10 +133,10 @@ export default function Home() {
                     <CheckCircle className="w-4 h-4 inline mr-2 text-green-600" />
                     Free • No registration required
                   </p>
-                  <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-semibold transition-all disabled:pointer-events-none disabled:opacity-50 bg-blue-600 text-white shadow-md hover:bg-blue-700 h-10 px-6 py-2">
+                  <Link href="https://app.advoqat.com/" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-semibold transition-all disabled:pointer-events-none disabled:opacity-50 bg-blue-600 text-white shadow-md hover:bg-blue-700 h-10 px-6 py-2">
                     Get Legal Advice
                     <ArrowRight className="w-4 h-4 ml-2" />
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -168,7 +168,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="features" className="pt-10 pb-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-3xl font-bold text-gray-900 mb-3">
@@ -223,7 +223,7 @@ export default function Home() {
       </section>
 
       {/* Legal Document Types */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section id="professional-legal-documents" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -389,7 +389,7 @@ export default function Home() {
             <div>
               <h3 className="font-semibold mb-4">Support</h3>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Help Center</a></li>
+                <li><Link href="/refund" className="hover:text-white transition-colors">Refund Policy</Link></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Contact Us</Link></li>
                 <li><Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
                 <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
